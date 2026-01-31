@@ -84,10 +84,25 @@ nav a:hover {
   color: #ffffff;
   padding: 20px;
   width: 70%;
+
+  /* NOVO */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.hero article img {
+  width: 120px;
+  /* mesmo tamanho do happy_client.jpg */
+  height: auto;
+  flex-shrink: 0;
+  /* impede a imagem de ser espremida */
 }
 
 .adventure {
   font-size: 2rem;
+  margin: 0;
 }
 
 /* Section General Styles */
