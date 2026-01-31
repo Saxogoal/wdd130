@@ -4,14 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>About Us - EcoRápidos Adventures</title>
-
     <meta name="description"
       content="Learn about EcoRápidos Adventures, a Brazilian rafting company focused on safety, sustainability, and unforgettable river adventures.">
-
     <meta name="author" content="André Piros">
-
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -19,7 +15,6 @@
     <header>
         <img src="images/rafting_company_logo.jpg" alt="EcoRápidos Adventures company logo"
           class="header-image">
-
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
@@ -32,66 +27,72 @@
         <div class="hero">
             <img src="images/foto_cascata.jpg"
               alt="Waterfall and river used for rafting adventures">
-
             <h1>EcoRápidos Adventures</h1>
-
             <article>
-                <img src="images/happy_client.jpg"
-                  alt="Happy rafting client after completing a river descent">
-
                 <p class="adventure">Your adventure starts here!</p>
             </article>
         </div>
 
-        <section>
-            <h2>History</h2>
-            <p>
-                Founded in 2005 in Brotas, São Paulo, EcoRápidos Adventures was created by
-                friends passionate about nature and extreme sports. Starting with only
-                two rafts, the company grew into a national reference in sustainable
-                adventure tourism, always prioritizing safety, environmental protection,
-                and unforgettable experiences.
-            </p>
+        <section id="history">
+            <!-- Agrupado em uma div para que o Grid funcione -->
+            <div class="history-left-content">
+                <h2>History</h2>
+                <p>
+                    Founded in 2005 in Brotas, São Paulo, EcoRápidos Adventures was created by
+                    friends passionate about nature and extreme sports. Starting with only
+                    two rafts, the company grew into a national reference in sustainable
+                    adventure tourism, always prioritizing safety, environmental protection,
+                    and unforgettable experiences.
+                </p>
+            </div>
+            <img src="images/happy_client.jpg"
+              alt="Happy rafting client after completing a river descent">
+            <!-- Placeholder para a 3ª coluna do wireframe -->
+            <div class="history-right-placeholder"></div>
         </section>
 
-        <section>
+
+        <section class="adventures-gallery">
             <h2>Adventure Awaits You!</h2>
 
-            <img src="images/rafting_bonito_mg.jpg"
-              alt="Rafting experience in Bonito, Minas Gerais">
+            <figure>
+                <img src="images/rafting_bonito_mg.jpg"
+                  alt="Rafting experience in Bonito, Minas Gerais">
+                <figcaption>Bonito, Minas Gerais</figcaption>
+            </figure>
 
-            <img src="images/rafting_rj.jpg" alt="Rafting adventure in Rio de Janeiro">
+            <figure>
+                <img src="images/rafting_rj.jpg" alt="Rafting adventure in Rio de Janeiro">
+                <figcaption>Rio de Janeiro</figcaption>
+            </figure>
 
-            <img src="images/rafting_3_coroas.jpg"
-              alt="Rafting activity in Três Coroas, Rio Grande do Sul">
+            <figure>
+                <img src="images/rafting_3_coroas.jpg"
+                  alt="Rafting activity in Três Coroas, Rio Grande do Sul">
+                <figcaption>Três Coroas, Rio Grande do Sul</figcaption>
+            </figure>
 
-            <img src="images/rafting_gramado.webp" alt="Group rafting experience in Gramado river">
+            <figure>
+                <img src="images/rafting_gramado.webp"
+                  alt="Group rafting experience in Gramado river">
+                <figcaption>Gramado River</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/raft_santo_amaro.webp"
+                  alt="Rafting experience in Santo Amaro da Imperatriz">
+                <figcaption>Santo Amaro da Imperatriz</figcaption>
+            </figure>
+
         </section>
     </main>
 
     <footer>
-        <p>
-            &copy; 2026 EcoRápidos Adventures | André Piros
-        </p>
-
+        <p>&copy; 2026 EcoRápidos Adventures | André Piros</p>
         <nav class="socialmedia">
-            <a href="https://www.facebook.com/">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1024px-Facebook_f_logo_%282019%29.svg.png"
-                  alt="EcoRápidos Adventures on Facebook">
-            </a>
-
-            <a href="https://www.x.com/">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/2/21/1690643591twitter-x-logo-png.webp"
-                  alt="EcoRápidos Adventures on X (Twitter)">
-            </a>
-
-            <a href="https://www.youtube.com/">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1024px-YouTube_full-color_icon_%282017%29.svg.png"
-                  alt="EcoRápidos Adventures on YouTube">
-            </a>
+            <a href="https://www.facebook.com"><img src="images/facebook.webp" alt="Facebook"></a>
+            <a href="https://www.x.com"><img src="images/X_logo_2023.jpg" alt="X"></a>
+            <a href="https://www.youtube.com"><img src="images/Youtube_logo.webp" alt="YouTube"></a>
         </nav>
     </footer>
 </body>
