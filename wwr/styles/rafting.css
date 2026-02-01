@@ -20,7 +20,6 @@ body {
   margin: 0 auto;
 }
 
-/* 2. Header: Usa CSS Grid layout (Obrigatório para A+) */
 header {
   display: grid;
   grid-template-columns: 200px 1fr;
@@ -35,7 +34,6 @@ header {
   display: block;
 }
 
-/* 3. Nav: Usa CSS Flex (Obrigatório para A+) */
 nav {
   display: flex;
   justify-content: flex-end;
@@ -52,7 +50,6 @@ nav a:hover {
   color: var(--accent-color);
 }
 
-/* Hero Section Styles */
 .hero {
   position: relative;
   margin: 20px 0;
@@ -65,7 +62,6 @@ nav a:hover {
 }
 
 .hero h1 {
-  /* H1 já estava centralizado */
   position: absolute;
   top: 20%;
   left: 50%;
@@ -85,7 +81,6 @@ nav a:hover {
   padding: 20px;
   width: 70%;
 
-  /* NOVO */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -94,10 +89,10 @@ nav a:hover {
 
 .hero article img {
   width: 120px;
-  /* mesmo tamanho do happy_client.jpg */
+
   height: auto;
   flex-shrink: 0;
-  /* impede a imagem de ser espremida */
+
 }
 
 .adventure {
@@ -105,25 +100,22 @@ nav a:hover {
   margin: 0;
 }
 
-/* Section General Styles */
 section {
   padding: 20px;
   margin: 40px 0;
 }
 
 h2 {
-  /* H2s Centralizados */
+
   color: var(--accent-color);
   margin-bottom: 20px;
   text-align: center;
 }
 
-/* History Section (Usando CSS Grid para 3 colunas para o wireframe) */
 #history {
   display: grid;
   grid-template-columns: 1fr 120px 1fr;
   gap: 20px;
-  /* Esta linha alinha verticalmente a imagem e o texto adjacente */
   align-items: center;
   text-align: center;
 }
@@ -132,7 +124,6 @@ h2 {
   width: 120px;
   height: auto;
   display: block;
-  /* Centraliza a imagem na célula do grid */
   justify-self: center;
 }
 
@@ -140,7 +131,6 @@ h2 {
   display: none;
 }
 
-/* Adventure Gallery Section (Using CSS Grid for responsive gallery) */
 .adventures-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -154,7 +144,6 @@ h2 {
   border-radius: 5px;
 }
 
-/* 5. Footer: Usa Flexbox */
 footer {
   display: flex;
   justify-content: space-between;
