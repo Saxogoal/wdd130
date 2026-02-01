@@ -80,7 +80,7 @@ nav a:hover {
   color: #ffffff;
   padding: 20px;
   width: 70%;
-
+  float: right;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -89,7 +89,7 @@ nav a:hover {
 
 .hero article img {
   width: 120px;
-
+  float: right;
   height: auto;
   flex-shrink: 0;
 
