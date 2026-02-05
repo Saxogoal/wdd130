@@ -90,6 +90,7 @@ nav a:hover {
 .hero article img {
   width: 120px;
   flex-shrink: 0;
+  float: right;
 }
 
 .adventure {
