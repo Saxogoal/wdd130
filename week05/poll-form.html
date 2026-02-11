@@ -11,54 +11,47 @@
 
 <body>
     <header>
-        <nav>
-            <ul class="navigation">
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">History</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>WDD 130 | HTML Form - User Poll</h1>
     </header>
 
 
     <main>
-        <h1>WDD 130 | HTML Form - User Poll</h1>
-
         <form>
 
             <fieldset>
                 <legend>Contact Information</legend>
-
-                <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname" required>
-
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
                 <br><br>
-
-                <label for="useremail">Email Address:</label>
-                <input type="email" id="useremail" name="useremail" required>
-
+                <div class="form-item column2">
+                    <label for="useremail">Email Address:</label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </div>
             </fieldset>
 
             <br>
 
             <fieldset>
                 <legend>Questions</legend>
-
-                <label for="browser">What is your favorite browser?</label>
-                <select name="browser" id="browser">
-                    <option value="chrome">Chrome</option>
-                    <option value="safari">Safari</option>
-                    <option value="edge">Edge</option>
-                    <option value="brave">Brave</option>
-                    <option value="other">Other</option>
-                </select>
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite
+                        browser?</label>
+                    <select name="browser" id="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="safari">Safari</option>
+                        <option value="edge">Edge</option>
+                        <option value="brave">Brave</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
 
                 <br><br>
-
-                <label for="pet">Do you have a household pet?</label>
-                <input type="checkbox" id="pet" name="pet">
-
+                <div class="form-item column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
                 <br><br>
 
                 <label for="feedback">List the places you have lived.</label>
