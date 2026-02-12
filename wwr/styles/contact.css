@@ -55,19 +55,6 @@ nav {
 
 }
 
-nav ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    list-style: none;
-    align-items: center;
-}
-
-nav li {
-    white-space: nowrap;
-
-}
-
 nav a {
     display: block;
     padding: 14px 22px;
